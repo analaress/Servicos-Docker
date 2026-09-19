@@ -1,5 +1,7 @@
 # Notas API com Docker
 
+Alunas: Ana Laressa e Yngrid Guimarães
+
 Este projeto é uma API pequena de anotações criada para demonstrar, na prática, como uma aplicação Python pode ser empacotada e executada com Docker.
 
 A API salva cada anotação com seu texto e data/hora. O banco utilizado é o SQLite. Quando a aplicação roda no Docker, o banco fica em `/app/data/notas.db` e esse diretório é ligado ao volume nomeado `notas-dados`.
